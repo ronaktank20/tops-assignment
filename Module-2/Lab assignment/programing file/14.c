@@ -1,0 +1,47 @@
+//1.Write a C program that acts as a simple calculator .The program should take two numbers  and an operator as input from the user and perform the respective operation(addition, subtraction ,multiplication ,division ,or modulus) using operators.
+
+#include<stdio.h>
+int main()
+{
+	int num1,num2,ans;
+	
+	//addition
+	printf("\nEnter the value of num1 = ");
+	scanf("%d",&num1);
+	printf("\nEnter the value of num2 = ");
+	scanf("%d",&num2);
+	ans = num1 + num2;
+	printf("\nThe addition of %d and %d is %d",num1,num2,ans);
+	
+	//subtraction
+	printf("\nEnter the value of num1 = ");
+	scanf("%d",&num1);
+	printf("\nEnter the value of num2 = ");
+	scanf("%d",&num2);
+	ans = num1 - num2;
+	printf("\nThe subtraction of %d and %d is %d",num1,num2,ans);
+	
+	//multiplication
+	printf("\nEnter the value of num1 = ");
+	scanf("%d",&num1);
+	printf("\nEnter the value of num2 = ");
+	scanf("%d",&num2);
+	ans = num1 * num2;
+	printf("\nThe multiplication of %d and %d is %d",num1,num2,ans);
+	
+	//division
+	printf("\nEnter the value of num1 = ");
+	scanf("%d",&num1);
+	printf("\nEnter the value of num2 = ");
+	scanf("%d",&num2);
+	printf("\nThe division of %d and %d is %f",num1,num2,(float)num1/(float)num2);  
+	
+	//remainder
+	printf("\nEnter the value of num1 = ");
+	scanf("%d",&num1);
+	printf("\nEnter the value of num2 = ");
+	scanf("%d",&num2);
+	printf("\nThe remainder of %d and %d is %d",num1,num2,num1%num2);
+	return 0;
+}
+
